@@ -1,0 +1,51 @@
+main>div{
+    width: 100%;
+}
+
+.blind, legend, hr{display:block; width:1px; height:1px; overflow:hidden; position:absolute; top:0; left:-1000em}
+#slide{overflow: hidden;height:420px}
+.slist img{width:100%;height:100%;margin:0 auto;display:block}
+.slist, .slist li{height: 100%;}
+.slist li{float: left;}
+.spanel{position: absolute; left: 50%; bottom: 10px; transform:translateX(-50%);}
+.spanel div{width: 15px; height: 15px; display: inline-block; margin:0 4px; border-radius:10px; background: #fff; cursor: pointer;}
+.spanel .act{background: #1e90ff;}
+#slide .arrow, #slide .arrow img{ width: 50px; height: 50px; position: absolute; top: 50%; transform:translateY(-50%); cursor: pointer;}
+#slide .left{left: 15%;}
+#slide .right{right: 15%;}
+button{overflow:visible;border:0 none;background-color:transparent;cursor:pointer}
+button::-moz-focus-inner{padding:0;border:0}
+/*뉴스*/
+#news{height: auto; min-height:300px; padding: 10px 0; margin-bottom: 20px;}
+#news > *{width: 50%; float: left; padding: 10px;}
+#news::after{content:''; display: block; clear: both;}
+#news table{border-collapse: collapse; width: 100%;}
+#news table tr{ height: 40px;}
+#news table thead tr{color: #fff; background: #60b0ff;}
+#news table thead tr>*{padding-left: 10px;}
+#news table tbody tr{border-bottom: 1px #ccc solid;}
+#news table tbody tr td:first-child{padding-left: 10px;}
+
+#clubs{min-height: 400px;}
+/*main gallary*/
+
+#gal_wrap{background: url(/img/section-gallery-bg.jpg) no-repeat 50% 0;}
+#main_gal{position: relative; padding-bottom: 100px; margin: 0 auto; width: 710px;}
+.top_gal li img{width:100%;}
+.bottom_gal{width: 725px;}
+.bottom_gal li {float:left;margin-right:15px}
+.bottom_gal li img{width:130px; height:80px;}
+.sp{
+display: block;
+ overflow: hidden;
+ font-size: 0;
+ line-height: 1000px;
+ white-space: nowrap;
+}
+.main_gal_pre{height:50px;display: block;background: url(/img/arr-left-galy.png) no-repeat 0 0; position: absolute;
+    left: -45px; width: 26px;
+    top: 13px;}
+.main_gal_next{height:50px;display:block;background: url(/img/arr-right-galy.png) no-repeat 0 0;    position: absolute;
+    left: 731px;
+    width: 26px;
+    top: 13px;}

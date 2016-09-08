@@ -1,0 +1,22 @@
+$(document).ready(function(){
+	$('.more').click(function(){
+		$('.lnb ul.second_menu').slideToggle(200);
+		$('.more').html('︿');
+		$('.more').css('padding','12px 5px 0 0');
+	});
+	var i=0;
+		$('.more').click(function(){
+			i++;
+		if(i==2)
+		{
+			i=0;
+			
+		}
+		if(i==0){
+			$('.more').html('﹀');
+			$('.more').css('padding','18px 5px 0 0');
+		
+		console.log(i)
+		}
+		});
+});

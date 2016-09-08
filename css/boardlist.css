@@ -1,0 +1,18 @@
+.board_list{width: 100%; margin:20px 0 10px; border-collapse: collapse;}
+.board_list thead{background: #66b4ff; color: #fff;}
+.board_list tbody{font-weight: normal;}
+.board_list tr{height: 45px;}
+.board_list tbody tr{border-bottom: 1px #ccc solid;}
+.board_list tbody tr .bidx{text-align: center;}
+.board_list tbody tr .btitle{text-align: left;}
+.board_list tbody tr .bwriter{text-align: center;}
+.board_list tbody tr .bdate{text-align: center;}
+.board_list tbody tr .bcount{text-align: center;}
+
+.blinks{width: auto; margin: 0 auto 20px; text-align: center;clear:both}
+.blinks::after{display: block; content:''; clear: both;}
+.blinks li{display: inline-block; width: 25px; height: 25px; text-align: center; line-height: 25px; margin:0 5px;}
+.blinks li.current{color: #66b4ff; border: 1px #66b4ff solid; line-height: 23px;}
+.blinks li.current a{color: #66b4ff;}
+.blinks li.next, .blinks li.prev, .blinks li.last, .blinks li.first{color: #66b4ff; width: 20px;}
+.blinks li a{display: inline-block; width: 100%; height: 100%;}

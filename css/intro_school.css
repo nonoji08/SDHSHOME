@@ -1,0 +1,37 @@
+*{padding:0;margin:0}
+ul, li, a{list-style:none;text-decoration:none; color:#555}
+header{width:100%;height:121px;border-bottom:1px solid #ddd}
+.container{width:1000px; margin:0 auto;}
+.lnb{width:168px; float:left;}
+.lnb ul li{height:47px; font-size:14px;border-bottom:1px solid #e1e1e1;}
+.lnb .first_menu > li > a{padding:16px 0;display:block;width:148px}
+.lnb .first_menu li a:hover{color:#0085c2}
+.lnb ul.first_menu{border-top:2px solid #0085c2;}
+.lnb h2{margin:20px 0;color:#555}
+.lnb ul.second_menu li{font-size:11px;border:none; padding:5px 10px !important;height:20px;display:block;}
+.lnb ul.second_menu{border-bottom:1px solid #e1e1e1;display:none}
+span.more{float:right;padding:18px 5px 0 0 ;font-size:16px;cursor:pointer}
+.content{width:740px; height:auto; margin-left:92px; margin-top:20px; float:left;}
+.content_title{width:100%; solid #d8d8d8; padding:11px 0 17px 0; font-size:25px;margin-top:-10px;color:#777}
+.uniform1 ul li{float:left;margin:20px;}
+.uniform1 ul{padding:0 48px;}
+.uniform2 ul li{float:left;margin:20px;}
+.uniform2 ul{padding:0 61px;}
+/*establish*/
+.gyojang {width:100%; height:600px; margin-top:80px;}
+.gyojang_img {width:120px; height:160px; margin-left:90px; border:2px solid black; padding:2px; float:left;}
+.gyojang_text {float:right; font-size:11pt; width:478px; margin-left:40px; letter-spacing:-1px; height:594px;}
+.sullip {width:100%; height:350px; margin-top:30px;}
+.sullip_img {float:left; margin-left:20px; margin-top:20px; border:2px solid black; padding:2px; width:264px; height:312px;}
+.sullip_text ul {float:left; width:408px; margin-left:40px; margin-top:250px; height:100px;}
+.sullip_text ul li {line-height:200%; font-size:18pt; font-weight:600;}
+.content_line {width:80%; height:0; margin:0 auto; padding-top:70px;  border-bottom:2px solid lightgray;}
+/*establish end*/
+/*history*/
+.yunhyuck {padding-top:40px; width:100%; height:800px; margin:0 auto; font-size:11pt;}
+tr {height:60px;}
+th {background-color:aliceblue; font-size:14pt;}
+/*purpose.php text wrap*/
+.pur_text_wrap {width:auto; height: auto;}
+.pur_text_wrap p {width:100%; height:70px; font-size:14pt; font-weight:bold;}
+.pur_text_wrap p:first-child {width:100%; height:200px; margin-top:50px; font-weight:bold; font-size:22pt; text-align: center;}

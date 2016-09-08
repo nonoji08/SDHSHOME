@@ -1,0 +1,128 @@
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+body{
+    font-family: 'Noto Sans Korean', sans-serif;
+}
+footer{clear:left}
+*{
+    margin: 0;
+    padding: 0;
+	color:inherit;
+	position: relative;
+	box-sizing:border-box;
+}
+.more{float:right;padding-right:10px}
+a{text-decoration: none; color: inherit;}
+li{list-style: none;}
+input,button{border: 1px #aaa solid; background: #fff; outline:0;}
+button{cursor: pointer;}
+.wrap{width: 1000px; margin: 0 auto;}
+main{margin:0 auto; overflow: hidden; display: block; min-height: 100vh;}
+main::after, .content::after{content:''; display: block; clear: both;}
+img, video{ max-width:100%; height:auto; }
+video{ min-width:100%; }
+/*헤더*/
+header{
+    width: 100%;
+    height: 120px;
+    border-bottom:1px solid black;
+    background-color: white;
+	z-index: 1000;
+}
+#header_login{
+    width: 100%;
+    height: 30px;
+    background-color: dodgerblue;
+}
+header .wrap ul{
+    float: right;    
+}
+header .wrap ul li{
+    display: inline-block;
+    float: left;
+    margin-right : 30px;
+}
+header .wrap ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav{
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+}
+#title{
+    float: left;
+    margin-top: 20px;
+}
+#main_menu{
+    float: right;
+    margin-top: 30px;
+
+}
+#main_menu>li{
+    width: 70px;
+    height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+    display: inline-block;
+    list-style: none;
+    float: left;
+}
+#main_menu li span{
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+	display: inline;
+    cursor: pointer;
+}
+.sub_menu{text-align: center; position: absolute; width: 200px; left: 50%; top: 100%; transform:translateX(-50%); background: #fff; box-shadow:0 0 5px rgba(0,0,0,.3);
+display: none;}
+
+.sub_menu a{width:200px; height:40px; display: inline-table; transition:all .5s}
+.sub_menu a:hover{background: #1e90ff; color: #fff !important;}
+
+/*헤더 끝*/
+	
+/*푸터*/
+footer{/*
+    width: 100%;
+    height: 200px;
+    background-color: #f5f5f5;
+    border-top: 3px solid #f2f2f2;*/
+}
+/*푸터 및 로그인, 회원가입 팝업*/
+footer{background: #1e90ff; color: #fff; height: 40px; line-height: 40px}
+.container{width: 1000px;margin:0 auto}
+.copy{width:1000px;margin:0 auto;text-align: center;}
+.popup{position: fixed; width: 100%; height: 100%; background: rgba(0,0,0,.4); left: 0; top: 0; z-index: 10000; display: none;}
+.popup .ftitle{border-left: 5px solid #1e90ff; padding-left: 20px; text-align: left; color: #1e90ff;}
+.popup .clbtn{position: absolute; right: 30px; cursor: pointer; top: 50%; transform:translateY(-50%); }
+.popup .clbtn img{width: 40px; height: 40px;}
+.popup form{width: 400px; background: #fff; border-radius:10px; position: absolute; left: 50%; top: 50%; transform:translate(-50%, -50%);
+z-index: 100; box-shadow:0 0 10px rgba(0,0,0,.2); text-align: center; padding-top: 50px; padding-bottom: 50px;}
+.popup form::before{content:''; display: none; width: 90%; background: #fafafa; height: 10px; border-radius:5px 5px 0 0; position: absolute; bottom: 100%;
+left: 50%; transform:translateX(-50%);}
+.popup .label, .popup .label *{ transition:all .5s;}
+.popup .label{width: 80%; height: 40px; display: inline-block; line-height: 40px; text-align: left; margin-top: 20px; font-size: 1.3em;}
+.popup .label>*{position: absolute; width: 100%; height: 100%; left: 0; top: 0;}
+.popup .label .placeholder{color: #aaa; padding-left: 10px; transform-origin: left top;}
+.popup .label.act .placeholder{transform:translate(-10px, -20px) scale(0.8);}
+.popup .label input{border: 0; border-bottom: 1px #aaa solid; background: transparent;padding-left: 10px; font-size: 1.1em;}
+.popup .label.act input{border-bottom-color: #1e90ff;}
+.popup button{width: 80%; height: 40px; font-weight: bold; transition:all .5s; border-width: 2px; margin-top: 20px; color: #aaa; font-size: 1.2em;}
+.popup button:hover, .popup button:focus{border-color: #1e90ff; color: #1e90ff;}
+.locinfo{font-size:12px}
+.locinfo dt{border-top: 1px solid #666;}
+#location{line-height:16px; margin-top:20px}
+#map{clear:left;margin-bottom:50px}
+
+/*768~1023 용이지만 일단 최소 제한 안걸어둠.*/
+/* @media (min-width:768px) and (max-width:1023px)*/
+@media (max-width:1023px){
+.wrap{width: 100%;}
+header nav{width: 100%;}
+.container{width: 100%;}
+.copy{width:100%;}
+}

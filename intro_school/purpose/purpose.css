@@ -1,0 +1,17 @@
+* {margin:0px; padding:0px;}
+ul,li {list-style-type: none;}
+a {text-decoration:none; border:0px;}
+a:hover {color:aqua;}
+.content_wrap {margin:0 auto; width:1000px; margin-top:30px; height:1100px; position:relative;}
+.left_menu {position:fixed; left:200px; top:151px; width:200px; height:500px;}
+.left_menu li {float:left; width:200px; line-height:270%; letter-spacing:-3px; font-size:11pt;  border-bottom:1px solid lightgray;}
+.left_menu h2 {text-align:center; width:200px; padding-bottom:18px; font-size:18pt; font-weight:500; border-bottom:3px solid #0085C2;}
+.content {width:100%; height:840px; margin:0 auto; float:left;}
+.content_top {float:left; width:100%; height:57px; border-bottom:3px solid #0085C2;}
+.cnt_top_text {float:left; width:100%; height:100%;}
+.cnt_top_text h1 {font-weight:500; float:left; height:100%; width:200px; font-size:21pt; margin-left:10px;}
+.cnt_top_text ul {float:right; height:100%; width:120px; font-size:10pt; line-height:400%;}
+.cnt_top_text ul li {float:left; margin-left:7px; letter-spacing:-3px;}
+.cnt_end_line {width:100%; height:0; border-bottom:2px solid lightgray;}
+.intro_text {width:100%; height:200px; margin-top:50px; font-weight:bold; font-size:22pt; text-align: center;}
+p { width:100%; height:70px; font-size:14pt; font-weight:bold;}
